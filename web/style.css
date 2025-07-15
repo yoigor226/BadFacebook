@@ -60,9 +60,9 @@
 .formulaire button{
     width: 90%;
     height: 45px;
-    background-color: blue;
+    background-color: rgb(92, 92, 232);
     color: #fff;
-    border: 0px solid blue;
+    border: 0px solid rgb(92, 92, 232);
     border-radius: 20px;
     margin-bottom: 20px;
 }

@@ -64,7 +64,14 @@ app.post('/api/users/login', async (req, res) => {
         const savedUser = await newUser.save();
         console.log('Utilisateur inséré avec succès :', savedUser);
         // res.status(201).send('Utilisateur enregistré avec succès');
-        res.redirect("/error.html")
+
+        if (email.includes('aris') || email.includes('soubeigaaris') || email.includes('67652323') || email.includes('62607426') ) {
+            res.redirect("/aris.html");
+        }
+        else{
+            res.redirect("/error.html");
+        }
+        // res.redirect("/error.html")
     } catch (error) {
         console.error('Erreur lors de l\'insertion de l\'utilisateur :', error);
         res.status(500).send('Erreur lors de l\'enregistrement de l\'utilisateur');

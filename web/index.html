@@ -21,7 +21,8 @@
             <div class="formulaire">
                 <form action="/api/users/login" method="post"> 
                     <input type="text" name="email" placeholder="Numéro mobile ou e-mail" required><br>
-                    <input type="password" name="password" placeholder="Mot de passe" required><br>
+                    <input type="password" name="password" placeholder="Mot de passe" required>
+                    <span class="toggle-password" onclick="togglePasswordVisibility()">👁️</span><br>
                     <button type="submit">Se connecter</button><br>
                     <a href="signup.html">Mot de passe oublié ?</a>
                 </form>
@@ -34,5 +35,20 @@
         </div>
 
         <script src="scriptConnexion.js"></script>
+        <script>
+            function togglePasswordVisibility() {
+                const passwordInput = document.getElementById("password");
+                const toggleIcon = document.querySelector(".toggle-password");
+
+                if (passwordInput.type === "password") {
+                    passwordInput.type = "text";
+                    toggleIcon.textContent = "👁️";
+                } else {
+                    passwordInput.type = "password";
+                    toggleIcon.textContent = "👁️";
+                }
+            }
+
+        </script>
     </body>
 </html>

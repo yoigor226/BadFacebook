@@ -1,68 +1,64 @@
-.body {
+.body{
     width: 100%;
     height: 100%;
-    padding-top: 0;
-    display: flex;
-    flex-direction: column;
+    padding-top: 0%;
     justify-content: center;
     align-items: center;
 }
 
-.langue {
+.langue{
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    /* margin-top:1%; */
+    margin-bottom: 30px;
 }
 
-.logo {
+.logo{
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-}
-
-.logo img {
-    width: 50%;
-    max-width: 200px;
-    height: auto;
-}
-
-.formulaire {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    display: flex;
+    margin-top: 20%;
     justify-content: center;
     align-items: center;
 }
 
-.formulaire form {
-    width: 90%;
-    max-width: 400px;
+.logo img{
+    width: 26%;
+    height: 26%;
+}
+
+.formulaire{
+    width: 100%;
     height: auto;
+    margin-top: 40%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire form{
+    width: 100%;
+    height: auto;
+    /* margin-left: 5%; */
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.formulaire input {
+.formulaire input{
     padding: 10px;
-    width: 100%;
+    width: 90%;
     height: 35px;
     border: 1px solid rgb(139, 137, 137);
     margin-bottom: 10px;
     border-radius: 10px;
 }
 
-.formulaire button {
-    width: 100%;
+.formulaire button{
+    width: 90%;
     height: 45px;
     background-color: #1877F2;
     color: #fff;
@@ -71,83 +67,68 @@
     margin-bottom: 20px;
 }
 
-.formulaire a {
-    width: 100%;
+.formulaire a{
+    width: 90%;
     height: 30px;
-    font-size: 12px;
+    font-size: 10px;
     color: rgb(101, 100, 100);
     text-align: center;
+    
+    
 }
 
-.footer {
+.footer{
     width: 100%;
     height: auto;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30%;
 }
 
-.footer button {
+.footer button{
     width: 90%;
-    max-width: 200px;
     height: 45px;
     background-color: #fff;
     color: #1877F2;
-    border: 2px solid #1877F2;
+    border: 2px solid;
+    border-color: #1877F2;
     border-radius: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
-.footer img {
-    width: 80px;
-    height: auto;
+.footer img{
+    width: 100px;
+    height: 100px;
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
-    .logo {
-        margin-top: 20%;
-    }
-
-    .logo img {
-        width: 60%;
-    }
-
-    .formulaire {
-        margin-top: 10%;
-    }
-
-    .formulaire form {
-        width: 95%;
-    }
+.error{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-@media (max-width: 480px) {
-    .logo {
-        margin-top: 30%;
-    }
 
-    .logo img {
-        width: 70%;
-    }
 
-    .formulaire {
-        margin-top: 5%;
-    }
 
-    .formulaire form {
-        width: 95%;
-    }
+.password-container {
+    position: relative;
+    width: 90%;
+}
 
-    .formulaire input {
-        padding: 8px;
-        height: 30px;
-    }
+.password-container input {
+    width: 100%;
+    padding: 10px;
+    height: 35px;
+    border: 1px solid rgb(139, 137, 137);
+    border-radius: 10px;
+}
 
-    .formulaire button {
-        height: 40px;
-    }
-
-    .footer button {
-        height: 40px;
-    }
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
 }

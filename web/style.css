@@ -1,0 +1,110 @@
+.body{
+    width: 100%;
+    height: 100vh;
+    padding-top: 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+.langue{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top:1%; */
+    margin-bottom: 30px;
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 26%;
+    height: 26%;
+}
+
+.formulaire{
+    width: 100%;
+    height: auto;
+    margin-top: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire form{
+    width: 100%;
+    height: auto;
+    /* margin-left: 5%; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formulaire input{
+    padding: 10px;
+    width: 90%;
+    height: 50px;
+    border: 1px solid rgb(139, 137, 137);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.formulaire button{
+    width: 90%;
+    height: 45px;
+    background-color: rgb(11, 11, 230);
+    color: #fff;
+    border: 0px solid rgb(11, 11, 230);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.formulaire a{
+    width: 90%;
+    height: 30px;
+    font-size: 22px;
+    color: rgb(101, 100, 100);
+    text-align: center;
+    
+    
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.footer button{
+    width: 90%;
+    height: 45px;
+    background-color: #fff;
+    color: rgb(11, 11, 230);
+    border: 2px solid;
+    border-color: rgb(11, 11, 230);
+    border-radius: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.footer img{
+    width: 100px;
+    height: 100px;
+}
+
+.error{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
